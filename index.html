@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="midias/logo-p.svg"
+        alt="logo Clima Hoje"
+        width="170px"
+      />
+      <input type="text" placeholder="Procure por cidades" />
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="card-clima-atual">
+          <div class="clima-atual">
+            <h1>São Paulo</h1>
+            <p>Chance de chuva: 0%</p>
+            <h2>28&deg;</h2>
+          </div>
+          <img
+            class="clima-atual-imagem"
+            src="midias/sun clouds.svg"
+            alt="clima ensolarado com nuvens"
+          />
+        </div>
+        <div class="clima-horarios">
+          <div class="clima-horario">
+            <p class="horario">6:00 AM</p>
+            <img src="midias/sun cloud.svg" alt="clima parcialmente nublado" />
+            <p class="graus">24&deg;</p>
+          </div>
+          <div class="clima-horario">
+            <p class="horario">9:00 AM</p>
+            <img
+              src="midias/sun clouds.png"
+              alt="clima ensolarado com nuvens"
+            />
+            <p class="graus">28&deg;</p>
+          </div>
+          <div class="clima-horario">
+            <p class="horario">12:00 PM</p>
+            <img src="midias/sun.png" alt="clima ensolarado" />
+            <p class="graus">30&deg;</p>
+          </div>
+          <div class="clima-horario">
+            <p class="horario">3:00 PM</p>
+            <img src="midias/sun.png" alt="clima ensolarado" />
+            <p class="graus">32&deg;</p>
+          </div>
+          <div class="clima-horario">
+            <p class="horario">6:00 PM</p>
+            <img src="midias/clouds.svg" alt="clima nublado" />
+            <p class="graus">27&deg;</p>
+          </div>
+          <div class="clima-horario">
+            <p class="horario">9:00 PM</p>
+            <img src="midias/moon clouds.svg" alt="anoitecer com nuvens" />
+            <p class="graus">26&deg;</p>
+          </div>
+        </div>
+        <div class="condicoes-ar">
+          <div class="item">
+            <p>Sensação Térmica</p>
+            <i class="fa-solid fa-temperature-half"></i>
+            <span>30&deg;</span>
+          </div>
+          <div class="item">
+            <p>Chance de chuva</p>
+            <i class="fa-solid fa-droplet"></i>
+            <span>0%</span>
+          </div>
+          <div class="item">
+            <p>Vento</p>
+            <i class="fa-solid fa-wind"></i>
+            <span>2</span>
+            <span id="km">km/h</span>
+          </div>
+          <div class="item">
+            <p>Índice UV</p>
+            <i class="fa-solid fa-sun"></i>
+            <span>4</span>
+          </div>
+        </div>
+      </div>
+      <div class="aside-container">
+        <div class="previsao-semana">
+          <div class="previsao-dia">
+            <p>Segunda</p>
+            <img
+              src="midias/sun cloud-darker.png"
+              alt="clima parcialmente nublado"
+            />
+            <div>
+              <span>29&deg;</span>
+              <p>23</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Terça</p>
+            <img src="midias/sun-g.png" alt="clima ensolarado" />
+            <div>
+              <span>33&deg;</span>
+              <p>27</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Quarta</p>
+            <img src="midias/sun-g.png" alt="clima ensolarado" />
+            <div>
+              <span>32&deg;</span>
+              <p>26</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Quinta</p>
+            <img
+              src="midias/sun clouds-darker.png"
+              alt="clima ensolarado com nuvens"
+            />
+            <div>
+              <span>30&deg;</span>
+              <p>24</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Sexta</p>
+            <img src="midias/clouds.png" alt="clima nublado" />
+            <div>
+              <span>28&deg;</span>
+              <p>22</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Sábado</p>
+            <img src="midias/rain.svg" alt="" />
+            <div>
+              <span>26&deg;</span>
+              <p>20</p>
+            </div>
+          </div>
+          <div class="previsao-dia">
+            <p>Domingo</p>
+            <img src="midias/sun clouds-darker.png" alt="" />
+            <div>
+              <span>30&deg;</span>
+              <p>25</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
