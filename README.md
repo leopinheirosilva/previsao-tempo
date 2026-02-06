@@ -1,5 +1,22 @@
-# previsao-tempo
+# Previsão do Tempo
 
-Projeto de tela responsiva que mostra a previsao do tempo
+Aplicação simples que permite buscar cidades (feature não implementada) e ver informações básicas do clima (temperatura, descrição e ícone)
 
-Clique [aqui](https://leopinheirosilva.github.io/previsao-tempo/) para acessar o site!
+![imagem de demonstração 1](midias/demo1.png)
+
+## Tecnologias
+
+- HTML
+- CSS
+
+## Deploy
+
+- GitHub Pages
+
+Clique [aqui](https://leopinheirosilva.github.io/previsao-tempo/) para acessar o site.
+
+## Contato
+
+Email: <leonardopinheirosilva16@gmail.com>
+
+LinkedIn: <https://www.linkedin.com/in/leonardo-pinheiro-13ba26281/>
